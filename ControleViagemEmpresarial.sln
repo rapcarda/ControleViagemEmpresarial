@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B453D3E0-A636-4E07-9D37-A96B32D4573A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4BF819C9-0106-45E3-A449-6D470EC7A1D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleViagemEmpresarial.Domain", "src\ControleViagemEmpresarial.Domain\ControleViagemEmpresarial.Domain.csproj", "{775212BE-CCCB-490F-A432-370358A27475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleViagemEmpresarial.Application", "src\ControleViagemEmpresarial.Application\ControleViagemEmpresarial.Application.csproj", "{AB397879-6987-47B5-B3AB-6A83102A67E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleViagemEmpresarial.Infrastructure", "src\ControleViagemEmpresarial.Infrastructure\ControleViagemEmpresarial.Infrastructure.csproj", "{2A1F6A8E-3077-461E-B505-715A99C2555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleViagemEmpresarial.Presentation", "src\ControleViagemEmpresarial.Presentation\ControleViagemEmpresarial.Presentation.csproj", "{2958D794-7D00-4422-94B6-E7D57E6187B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleViagemEmpresarial.WebApi", "src\ControleViagemEmpresarial.WebApi\ControleViagemEmpresarial.WebApi.csproj", "{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775212BE-CCCB-490F-A432-370358A27475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775212BE-CCCB-490F-A432-370358A27475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775212BE-CCCB-490F-A432-370358A27475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775212BE-CCCB-490F-A432-370358A27475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB397879-6987-47B5-B3AB-6A83102A67E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB397879-6987-47B5-B3AB-6A83102A67E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB397879-6987-47B5-B3AB-6A83102A67E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB397879-6987-47B5-B3AB-6A83102A67E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1F6A8E-3077-461E-B505-715A99C2555A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1F6A8E-3077-461E-B505-715A99C2555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1F6A8E-3077-461E-B505-715A99C2555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1F6A8E-3077-461E-B505-715A99C2555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2958D794-7D00-4422-94B6-E7D57E6187B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2958D794-7D00-4422-94B6-E7D57E6187B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2958D794-7D00-4422-94B6-E7D57E6187B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2958D794-7D00-4422-94B6-E7D57E6187B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{775212BE-CCCB-490F-A432-370358A27475} = {B453D3E0-A636-4E07-9D37-A96B32D4573A}
+		{AB397879-6987-47B5-B3AB-6A83102A67E9} = {B453D3E0-A636-4E07-9D37-A96B32D4573A}
+		{2A1F6A8E-3077-461E-B505-715A99C2555A} = {B453D3E0-A636-4E07-9D37-A96B32D4573A}
+		{2958D794-7D00-4422-94B6-E7D57E6187B6} = {B453D3E0-A636-4E07-9D37-A96B32D4573A}
+		{F488F6C1-B5A8-4508-AF3F-E6C4D6F48647} = {B453D3E0-A636-4E07-9D37-A96B32D4573A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16EB1A23-C124-460B-992D-79D230E1B8E3}
+	EndGlobalSection
+EndGlobal
